@@ -45,7 +45,7 @@ const readList = async(userId)=>{
     console.log(params)
 
     try{
-        const admin=["67125ghmqwfd623fdquw"]
+        const admin=["546ef019-d04b-4db0-8f81-b93bbb5ae1a7"]
         const { Items = [] } = await config.db.scan(params).promise()
         console.log(Items)
 
